@@ -13,7 +13,7 @@ function setup() {
     answerInput.position(windowWidth/3, 325);
 
     submitButton = createButton("Enter Site");
-    submitButton.position(windowWidth/3, 650);
+    submitButton.position(windowWidth/3, 400);
     submitButton.style('font-size', '30px');
 
     var textArray = [
@@ -27,9 +27,9 @@ function setup() {
   }
   
 function draw() {
-  background(0,0,0);
+  background(255);
 
-  textSize(60);
+  textSize(30);
 
   textAlign(CENTER);
 
